@@ -1,0 +1,43 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complaint Management Portal</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">C</span><div><strong>ComplaintCare</strong><small>Management Portal</small></div></div>
+      <nav>
+        <a class="active" href="/">Dashboard</a>
+        <a href="#" aria-disabled="true">All Complaints <em>Planned</em></a>
+        <a href="#" aria-disabled="true">Upload Complaints <em>Planned</em></a>
+        <a href="#" aria-disabled="true">Pending CCI Approval <em>Planned</em></a>
+        <a href="#" aria-disabled="true">Master Data <em>Planned</em></a>
+        <a href="#" aria-disabled="true">Material Consumption <em>Planned</em></a>
+        <a href="#" aria-disabled="true">Export <em>Planned</em></a>
+      </nav>
+      <div class="sidebar-foot">Independent project starter</div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><span class="eyebrow">WORKSPACE</span><h1>Dashboard</h1></div><span class="status">Foundation ready</span></header>
+      <section class="welcome">
+        <div><span class="eyebrow light">COMPLAINT OPERATIONS</span><h2>Your complaint workflow,<br>built on a secure foundation.</h2>
+        <p>This is the initial project shell. Complaint data and live metrics will appear after requirements and data rules are confirmed.</p></div>
+        <div class="welcome-art">CC</div>
+      </section>
+      <section class="section-head"><div><span class="eyebrow">PROJECT BASELINE</span><h2>Modules being documented</h2></div></section>
+      <div class="cards">
+        <article class="card"><span class="card-icon">01</span><h3>Complaints</h3><p>Search, filters, table columns, detail view and status workflow.</p><span class="tag">Requirements captured</span></article>
+        <article class="card"><span class="card-icon">02</span><h3>Excel Import</h3><p>Confirmed 13-column Excel template and header validator are ready; database import is planned.</p><span class="tag muted">Template confirmed</span></article>
+        <article class="card"><span class="card-icon">03</span><h3>Material Consumption</h3><p>One line item per material per order; existing materialCode values are preserved.</p><span class="tag">Core rule confirmed</span></article>
+        <article class="card"><span class="card-icon">04</span><h3>Reports & Export</h3><p>Batch export and MC Excel output will be implemented after output formats are verified.</p><span class="tag muted">Awaiting samples</span></article>
+      </div>
+      <footer>© Complaint Management Portal · Development foundation only</footer>
+    </main>
+  </div>
+</body>
+</html>
